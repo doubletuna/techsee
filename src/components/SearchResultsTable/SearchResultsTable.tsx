@@ -35,7 +35,6 @@ const SearchResultsTable: React.FC<ISearchResultsTable> = ({ searchResults, sort
           <div className={`grid-cell${clickable}`} onClick={() => sortClicked('firstName')}>First Name</div>
           <div className={`grid-cell${clickable}`} onClick={() => sortClicked('lastName')}>Last Name</div>
           <div className={`grid-cell${clickable}`} onClick={() => sortClicked('country')}>Country</div>
-          <div className="grid-cell">Device</div>
           <div className="grid-cell justify-left">Bugs</div>
         </>
       }
